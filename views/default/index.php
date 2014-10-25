@@ -67,9 +67,15 @@ $this->params['noTitle'] = true; ?>
                 <div class="alert alert-warning center">
                     <p>If you do not have Composer, you may install it by following the instructions at <a href="getcomposer.org" target="_blank">getcomposer.org</a>.</p>
                 </div>
+                <div class="alert alert-warning center">
+                    <p>If you do not have Composer-Asset-Plugin installed, you may install it by running command: <code>php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta3"</code></p>
+                </div>
                 <ol>
                     <li>
                         <p>Run the following command: <code>php composer.phar create-project --prefer-dist --stability=dev vova07/yii2-start yii2-start</code> to install Yii2-Start.</p>
+                        <div class="alert alert-warning center">
+                            <p>During the installation process can be required password and\or username from your Github account. This is because you make too much request to Github service. Just remember that this can be.</p>
+                        </div>
                     </li>
                     <li>
                         <p>Run command: <code>cd /my/path/to/yii2-start/</code> and go to main application directory.</p>
