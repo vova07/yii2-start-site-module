@@ -1,3 +1,5 @@
+# WARNING: This extension is not more maintained
+
 Yii2-Start site module.
 =======================
 This module provide frontend functionality for Yii2-Start application.
